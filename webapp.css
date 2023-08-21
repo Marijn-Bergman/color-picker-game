@@ -1,0 +1,49 @@
+.heading{
+    background-color: rgb(134, 134, 134);
+    text-decoration: black;
+    text-align: center;
+}
+#headerbar{
+	background: rgb(0, 0, 0);
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: black;
+	background: rgb(132, 113, 238);
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+}
+
+#message {
+	display: inline-block;
+}
+
+button:hover {
+	color: black;
+	background: white;
+}
+.pickColor{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 4px;
+}
+.containerColors{
+    text-align: center;
+    margin: 10px;
+}
